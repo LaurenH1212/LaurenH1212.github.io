@@ -7,3 +7,38 @@ h1 {
   font-family: "Old London", serif;
   font-size: 2em;
 }
+ul.nav {
+  list-style-type: none;
+  overflow: hidden;
+  bakcground-color: maroon;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right:0;
+  width: 100%;
+}
+li.nav{
+  float:right;
+}
+
+li.nav a {
+  font-family: "Times New Roman", serif;
+  font-size: 1.5em;
+  display:block;
+    color:black;
+    text-align:center;
+    text-decoration: none;
+}
+
+li.nav a:hover {
+  background-color:red;
+
+}
+
+ul.nodot {
+  list-style-type: none;
+  margin-left: 8%;
+}
+p {
+  font-size: 20;
+}
