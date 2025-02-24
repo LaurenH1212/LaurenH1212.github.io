@@ -9,12 +9,12 @@ h1 {
 }
 ul.nav {
   list-style-type: none;
+  overflow: hidden;
   bakcground-color: maroon;
   position: fixed;
   top: 0;
-  padding-left: 5;
-  padding-right:5;
   left: 0;
+  right:0;
   width: 100%;
 }
 li.nav{
@@ -27,7 +27,6 @@ li.nav a {
   display:block;
     color:black;
     text-align:center;
-    padding: 14px 25px;
     text-decoration: none;
 }
 
@@ -42,12 +41,4 @@ ul.nodot {
 }
 p {
   font-size: 20;
-}
-header.resume {
-  padding-top: 5%;
-  text-align: center;
-}
-
-td {
-  padding-left: 10;
 }
