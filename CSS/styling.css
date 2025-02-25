@@ -4,34 +4,35 @@ body {
 h1 {
   text-align:center;
   color: black;
-  font-family: "Old London", serif;
+  font-family: "Garamond", serif;
   font-size: 2em;
 }
 ul.nav {
   list-style-type: none;
-  overflow: hidden;
   bakcground-color: maroon;
   position: fixed;
   top: 0;
+  padding-left: 0;
+  padding-right: 0;
   left: 0;
-  right:0;
   width: 100%;
 }
 li.nav{
-  float:right;
+  float: right;
 }
 
 li.nav a {
   font-family: "Times New Roman", serif;
   font-size: 1.5em;
-  display:block;
-    color:black;
-    text-align:center;
+  display: block;
+    color :black;
+    text-align: center;
+    padding: 14px 25px;
     text-decoration: none;
 }
 
 li.nav a:hover {
-  background-color:red;
+  background-color: red;
 
 }
 
@@ -41,4 +42,12 @@ ul.nodot {
 }
 p {
   font-size: 20;
+}
+header.resume {
+  padding-top: 5%;
+  text-align: center;
+}
+
+td {
+  padding-left: 10;
 }
