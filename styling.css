@@ -12,7 +12,7 @@ h1 {
 }
 h2 {
   color: white;
-  font-family: "Comic Sans", serif;
+  font-family: "Times New Roman", serif;
 }
 h3 {
   color: #d3d3d3;
@@ -54,7 +54,7 @@ ul.nodot {
   margin-left: 8%;
 }
 p {
-  color: grey;
+  color: #FFFFFF;
   font-size: 20;
 }
 header.resume {
@@ -82,5 +82,5 @@ td {
   padding-left: 10;
 }
 tr {
-  color: grey;
+  color: #FFFFFF;
 }
